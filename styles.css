@@ -1058,7 +1058,7 @@ header nav {
 /* Responsive tweak for smaller mobile screens */
 @media (max-width: 480px) {
   header nav .logo-img {
-    height: 110px !important; /* Fixed the "100x" typo to "110px" and made it much larger on mobile */
+    height: 250px !important; /* Fixed the "100x" typo to "110px" and made it much larger on mobile */
   }
   header nav .logo-text {
     font-size: 20px !important; /* Scales down text on small screens */
