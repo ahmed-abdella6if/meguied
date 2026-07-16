@@ -186,7 +186,7 @@
   }
   nav{
     display:flex; align-items:center; justify-content:space-between;
-    gap:20px;
+    gap:20px; 
   }
   .logo{
     display:flex; align-items:center; gap:8px;
@@ -1016,18 +1016,17 @@
   display: block;
   margin-bottom: 10px;
 }
-
 /* Align the logo image and text next to each other */
 header nav .logo {
   display: flex;
   align-items: center;
-  gap: 14px; /* Space between logo image and text */
+  gap: 12px; /* Adjusted space between logo image and text */
   text-decoration: none;
 }
 
-/* Make the logo image bigger */
+/* Make the logo image balanced on desktop */
 header nav .logo-img {
-  height: 140px !important; /* Made it much larger on desktop */
+  height: 75px !important; /* Scaled down from 140px to a sleek, professional size */
   width: auto !important;
   display: block !important;
   transition: transform 0.2s ease;
@@ -1040,7 +1039,7 @@ header nav .logo:hover .logo-img {
 /* Style the brand text next to the logo */
 header nav .logo-text {
   font-family: 'Fraunces', serif; /* Matching your elegant editorial font */
-  font-size: 26px !important; /* Slightly larger to match the bigger logo */
+  font-size: 21px !important; /* Adjusted to match the new logo size */
   font-weight: 600;
   color: var(--navy-900);
   letter-spacing: -0.5px;
@@ -1052,16 +1051,16 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0; /* Tightened padding slightly so the massive logo doesn't make the header too tall */
+  padding: 8px 0; /* Tightened padding for a slimmer, cleaner nav bar */
 }
 
 /* Responsive tweak for smaller mobile screens */
 @media (max-width: 480px) {
   header nav .logo-img {
-    height: 250px !important; /* Fixed the "100x" typo to "110px" and made it much larger on mobile */
+    height: 45px !important; /* Scaled WAY down from 250px so it fits perfectly on phones */
   }
   header nav .logo-text {
-    font-size: 20px !important; /* Scales down text on small screens */
+    font-size: 16px !important; /* Slightly smaller text so it fits comfortably on one line next to the logo */
   }
 }
 
@@ -1069,53 +1068,5 @@ header nav {
 @media (max-width: 768px) {
   .wa-float {
     display: none !important;
-  }
-}
-/* Tighten the header container and remove extra vertical space */
-#siteHeader {
-  position: fixed; /* Or sticky, depending on your setup */
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background: var(--white);
-  box-shadow: 0 2px 20px rgba(10, 25, 48, 0.05);
-  z-index: 1000;
-  height: 90px !important; /* Forces a slim, fixed height for the bar */
-}
-
-/* Ensure the nav elements align perfectly inside the restricted height */
-header nav {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  height: 100% !important; /* Fills the 90px header height */
-  padding: 0 !important; /* Removes all vertical padding pushing the bar down */
-}
-
-/* Let the large logo align perfectly without forcing the header to stretch */
-header nav .logo {
-  display: flex !important;
-  align-items: center !important;
-  gap: 12px !important;
-  height: 100% !important;
-}
-
-header nav .logo-img {
-  height: 110px !important; /* Keeps it prominent on desktop */
-  width: auto !important;
-  display: block !important;
-  margin-top: 5px; /* Adjusts vertical centering */
-  transition: transform 0.2s ease;
-}
-
-/* Responsive tweaks for mobile navigation bar */
-@media (max-width: 480px) {
-  #siteHeader {
-    height: 70px !important; /* Even slimmer navigation bar height on mobile */
-  }
-  
-  header nav .logo-img {
-    height: 85px !important; /* Scales logo perfectly to fit the 70px mobile bar */
   }
 }
