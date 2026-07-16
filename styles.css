@@ -1134,3 +1134,9 @@ header nav .logo-text,
     font-size: 16px !important;
   }
 }
+
+.static-logo-text {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
