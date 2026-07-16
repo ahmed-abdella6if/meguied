@@ -1016,42 +1016,47 @@
   display: block;
   margin-bottom: 10px;
 }
-/* Align the logo image and text next to each other */
-header nav .logo {
+/* Force the logo container to be wide enough and align items */
+header nav .logo, 
+header nav a.logo {
   display: flex !important;
   align-items: center !important;
-  gap: 12px !important; /* Space between logo image and text */
+  gap: 15px !important; /* Space between logo image and text */
   text-decoration: none !important;
-  width: auto !important;
-  overflow: visible !important; /* Prevents text clipping */
+  width: auto !important; /* Prevents container from squeezing text */
+  max-width: none !important; /* Overrides any restrictive max-widths */
+  overflow: visible !important; /* Ensures text never gets clipped or hidden */
 }
 
-/* Make the logo image balanced on desktop */
+/* The Logo Image */
 header nav .logo-img {
-  height: 75px !important;
+  height: 75px !important; /* Compact, balanced desktop size */
   width: auto !important;
   display: block !important;
-  flex-shrink: 0 !important; /* Stops the image from squeezing the text out */
+  flex-shrink: 0 !important; /* Stops the image from compressing the text to 0 width */
   transition: transform 0.2s ease;
 }
 
 header nav .logo:hover .logo-img {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
-/* Style the brand text next to the logo and FORCE it to display */
+/* Force the Text to Show Up */
 header nav .logo-text {
-  display: inline-block !important; /* Overrides any 'display: none' in other CSS files */
-  visibility: visible !important; /* Overrides any hidden rules */
+  display: inline-block !important; /* Overrides 'display: none' */
+  visibility: visible !important; /* Overrides 'visibility: hidden' */
+  opacity: 1 !important; /* Overrides 'opacity: 0' */
+  
+  /* Styling */
   font-family: 'Fraunces', serif !important;
-  font-size: 21px !important;
+  font-size: 22px !important;
   font-weight: 600 !important;
   color: var(--navy-900) !important;
   letter-spacing: -0.5px !important;
-  white-space: nowrap !important; /* Prevents text wrapping */
+  white-space: nowrap !important; /* Force text onto a single line */
 }
 
-/* Make sure the header nav elements are vertically aligned and spread out */
+/* Clean Nav Spacing */
 header nav {
   display: flex !important;
   justify-content: space-between !important;
@@ -1059,14 +1064,14 @@ header nav {
   padding: 8px 0 !important;
 }
 
-/* Responsive tweak for smaller mobile screens */
+/* Mobile responsive scaling */
 @media (max-width: 480px) {
   header nav .logo-img {
-    height: 45px !important;
+    height: 45px !important; /* Super clean and compact on phones */
   }
   header nav .logo-text {
     display: inline-block !important;
-    font-size: 16px !important;
+    font-size: 16px !important; /* Scale down so it fits smaller screens */
   }
 }
 
