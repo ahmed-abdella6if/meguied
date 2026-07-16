@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meguid Translation | Certified Translation Services</title>
+<meta name="description" content="Meguid Translation is an authorized office providing certified and sworn translations with full legal value, for legal, medical, business, technical, and academic documents in Egypt and abroad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header id="siteHeader">
+  <div class="container">
+    <nav>
+      <a href="#home" class="logo">
+        <img src="./images/logo__2_-removebg-preview.png" alt="Meguid Translation Logo" class="logo-img">
+        <span class="logo-text">Meguid Translation</span>
+      </a>
+      <div class="nav-links">
+        <a href="#home" data-i18n="nav.home">Home page</a>
+                <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#languages" data-i18n="nav.languages">Languages</a>
+
+        <a href="#transcription" data-i18n="nav.sworn">Sworn Translations</a>
+        <a href="#services-legal" data-i18n="nav.legal">Legal Translations</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        
+        <!-- Lingue / Language Selector -->
+        <div class="nav-cta">
+        <div class="lang-toggle" id="langToggle">
+          <button class="lang-btn active" data-lang-btn="en">EN</button>
+          <button class="lang-btn" data-lang-btn="it">IT</button>
+        </div>
+      </div>
+
+      <!-- Quick Action CTAs -->
+      <div class="nav-cta">
+        <a href="tel:+390294756042" class="btn btn-ghost-navy" data-i18n="nav.call">CHIAMA</a>
+        <a href="https://wa.me/+393274113383" target="_blank" class="btn btn-gold">WHATSAPP</a>
+        <button class="burger" id="burgerBtn" aria-label="Apri menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="mobile-drawer" id="mobileDrawer">
+  <a href="#home" data-i18n="nav.home">Home page</a>
+  <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#languages" data-i18n="nav.languages">Languages</a>
+
+  <a href="#transcription" data-i18n="nav.sworn">Sworn Translations</a>
+  <a href="#services-legal" data-i18n="nav.legal">Legal Translations</a>
+  <a href="#contact" data-i18n="nav.contact">Contact</a>
+  
+  <div class="mobile-lang-section">
+    <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; color: var(--navy-900);" data-i18n="nav.languages">Languages</p>
+    <div class="lang-toggle-mobile" id="langToggleMobile">
+      <button class="lang-btn active" data-lang-btn="it">IT</button>
+      <button class="lang-btn" data-lang-btn="en">EN</button>
+    </div>
+  </div>
+  
+  <a href="https://wa.me/+393274113383" target="_blank" class="btn btn-gold" style="margin-top: 20px; text-align: center;">WhatsApp</a>
+</div>
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-map"></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow" style="color:var(--gold-400)" data-i18n="hero.eyebrow">Certified · Signed · Legally Responsible</div>
+      <h1 id="heroHeadline"><span class="fade-text" id="heroFadeText" data-i18n="hero.headline">CERTIFIED TRANSLATIONS WITH FULL LEGAL VALUE</span></h1>
+      <p class="sub" data-i18n="hero.sub">Meguid Translation signs and takes full legal responsibility for every document it translates. Accurate, confidential, and accepted by courts, embassies, universities, and government authorities in Egypt and abroad.</p>
+      <p style="margin-top:16px; font-size:14.5px; color:var(--muted); max-width:520px;" data-i18n="hero.authorized"><strong style="color:var(--gold-500); font-weight:600;">Authorized translation office</strong> — certified and sworn translations valid before Egyptian authorities, foreign consulates, and international institutions.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-gold" data-i18n="hero.ctaQuote">Request a Quick Quote</a>
+        <a href="https://wa.me/+393274113383" target="_blank" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.86 9.86 0 0 0 12.04 2zm0 18.13a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.14.82.84-3.06-.2-.31a8.22 8.22 0 0 1-1.26-4.34c0-4.53 3.69-8.22 8.25-8.22 2.2 0 4.27.86 5.83 2.42a8.17 8.17 0 0 1 2.41 5.81c0 4.53-3.69 8.21-8.24 8.21zm4.52-6.16c-.25-.12-1.47-.72-1.69-.8-.23-.08-.39-.12-.56.13-.17.24-.64.8-.78.96-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.15-.24-.02-.37.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42-.14-.01-.31-.01-.48-.01a.93.93 0 0 0-.67.31c-.23.24-.87.85-.87 2.08 0 1.23.89 2.41 1.02 2.58.12.16 1.75 2.68 4.25 3.75.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+          <span data-i18n="hero.ctaWhatsapp">Contact on WhatsApp</span>
+        </a>
+      </div>
+      <div class="hero-trust reveal">
+        <div><strong>12h</strong><span data-i18n="hero.stat1">Certified translations</span></div>
+        <div><strong>48h</strong><span data-i18n="hero.stat2">Legal / sworn translations</span></div>
+        <div><strong>2 days</strong><span data-i18n="hero.stat3">Urgent apostille &amp; legalization</span></div>
+        <div><strong>25+</strong><span data-i18n="hero.stat4">Languages covered</span></div>
+      </div>
+    </div>
+    <div class="seal-wrap">
+      <svg class="seal" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="circlePath" d="M 150,150 m -110,0 a 110,110 0 1,1 220,0 a 110,110 0 1,1 -220,0" />
+        </defs>
+        <circle cx="150" cy="150" r="140" fill="none" stroke="rgba(221,190,94,0.25)" stroke-width="1"/>
+        <circle cx="150" cy="150" r="112" fill="none" stroke="#DDBE5E" stroke-width="1.4"/>
+        <circle cx="150" cy="150" r="88" fill="none" stroke="rgba(221,190,94,0.4)" stroke-width="1"/>
+        <text fill="#DDBE5E" font-family="Fraunces, serif" font-size="13" letter-spacing="4">
+          <textPath href="#circlePath" startOffset="0%">CERTIFIED · ACCURATE · CONFIDENTIAL · TRUSTED ·</textPath>
+        </text>
+      </svg>
+      <div class="seal-center">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h7M9 11h7M9 15h4"/></svg>
+        <span>MEGUID<br>TRANSLATION</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<!-- ============ ABOUT SECTION (CENTERED & UPDATED) ============ -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="about.eyebrow">PROFESSIONAL TRANSLATION OFFICE IN MILAN</div>
+      <h2 data-i18n="about.h2">An authorized office, fully responsible for what it signs</h2>
+      
+      <p class="lead" data-i18n="about.p1">
+        The Meguid Translation Agency specializes in Sworn Translations, Court Filings, and Legalization of Court Records, including international service of process, of any nature and complexity. Sworn translation of divorce decrees, summonses, and injunctions. Translation of Powers of Attorney and notary deeds to and from abroad.
+      </p>
+      
+      <p class="lead" data-i18n="about.p2">
+        We manage translation projects for Legal Documents, Judicial and Notarial Acts, Certificates, and Degrees issued in Italy or abroad. Translation of Chamber of Commerce profiles, Financial Statements, and all corporate documents. We specialize in the Translation and Legalization of Documents for participation in foreign tenders. Technical and Manual Translations. Scientific and Medical Translations.
+      </p>
+      
+      <div class="stat-grid">
+        <div class="stat-card">
+          <strong>25+</strong>
+          <span data-i18n="about.stat1">Languages supported</span>
+        </div>
+        <div class="stat-card">
+          <strong>40K+</strong>
+          <span data-i18n="about.stat2">Documents certified</span>
+        </div>
+        <div class="stat-card">
+          <strong>12h</strong>
+          <span data-i18n="about.stat3">Certified translation delivery</span>
+        </div>
+        <div class="stat-card">
+          <strong>100%</strong>
+          <span data-i18n="about.stat4">Confidential, signed handling</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="services.eyebrow">Our Services</div>
+      <h2 data-i18n="services.h2">Certified translation for every official document</h2>
+      <p data-i18n="services.p">We are authorized to translate and certify documents of any nature and complexity — valid before Egyptian authorities and accepted abroad.</p>
+    </div>
+    <div class="card-grid">
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <h3 data-i18n="services.s1.h">Certified Translation</h3>
+        <p data-i18n="services.s1.p">Certified translation of civil documents — birth, marriage, and death certificates, ID and passport copies — accepted by government offices, embassies, and consulates.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 8h6l-2-8M19 7l-2 8h6l-2-8"/></svg></div>
+        <h3 data-i18n="services.s2.h">Legal Translation</h3>
+        <p data-i18n="services.s2.p">Sworn and certified translation of contracts, court rulings, powers of attorney, and notarial deeds, valid for legal proceedings in Egypt and abroad.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v6M9 5h6M6 9h12l-1 11a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 9z"/></svg></div>
+        <h3 data-i18n="services.s3.h">Medical Translation</h3>
+        <p data-i18n="services.s3.p">Certified translation of medical reports, prescriptions, discharge summaries, and clinical documentation, handled under strict confidentiality.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+        <h3 data-i18n="services.s4.h">Technical Translation</h3>
+        <p data-i18n="services.s4.p">Translation of technical manuals, product specifications, and engineering documentation across industrial and manufacturing sectors.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3 data-i18n="services.s5.h">Business Translation</h3>
+        <p data-i18n="services.s5.p">Certified translation of financial statements, commercial registers, company bylaws, and tender documentation for local and international business.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg></div>
+        <h3 data-i18n="services.s6.h">Academic Translation</h3>
+        <p data-i18n="services.s6.p">Certified translation and legalization of diplomas, transcripts, and academic records for university admission and visa applications.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div>
+        <h3 data-i18n="services.s7.h">Website Localization</h3>
+        <p data-i18n="services.s7.p">Full localization of websites and digital platforms, adapted linguistically and culturally for each target market.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></div>
+        <h3 data-i18n="services.s8.h">Document Proofreading</h3>
+        <p data-i18n="services.s8.p">Professional review and correction of existing translations for legal, technical, and linguistic accuracy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LANGUAGES ============ -->
+<section class="languages" id="languages">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="languages.eyebrow">Languages</div>
+      <h2 data-i18n="languages.h2">Authorized translation, to and from every major language</h2>
+          </div>
+    <div class="lang-wrap reveal">
+      <div class="lang-pill"><span class="flag">🇪🇬</span> <span data-i18n="languages.arabic">Arabic</span></div>
+      <div class="lang-pill"><span class="flag">🇬🇧</span> <span data-i18n="languages.english">English</span></div>
+      <div class="lang-pill"><span class="flag">🇮🇹</span> <span data-i18n="languages.italian">Italian</span></div>
+   
+</section>
+
+<!-- ============ AUDIO TRANSCRIPTION SECTION ============ -->
+<!-- ============ AUDIO TRANSCRIPTION SECTION (CENTERED) ============ -->
+<section class="transcription-services" id="transcription">
+  <div class="container transcription-container-center">
+    
+    <!-- Centered Header Area -->
+    <div class="transcription-header text-center">
+      <div class="eyebrow" data-i18n="transcription.eyebrow">Sworn Transcriptions & Expert Reports</div>
+      <h2 data-i18n="transcription.h2">AUDIO RECORDING TRANSCRIPTION & COURT EXPERTISE IN MILAN</h2>
+      <p class="lead" data-i18n="transcription.sub">Professional audio-to-text legal transcription and court certification. Available in Italian and all major foreign languages.</p>
+    </div>
+    
+    <!-- Cards Grid -->
+    <div class="transcription-grid">
+      <div class="transcription-card">
+        <h3 data-i18n="transcription.card1.h">Accuracy & Linguistic Expertise</h3>
+        <p data-i18n="transcription.card1.p">Transcribing an audio or video track with absolute fidelity demands exceptional linguistic sensitivity and deep technical domain expertise.</p>
+      </div>
+      
+      <div class="transcription-card">
+        <h3 data-i18n="transcription.card2.h">Legal Value in Court</h3>
+        <p data-i18n="transcription.card2.p">Certifying an audio transcript as a Sworn Expert Report carries substantial civil and criminal liabilities. Meguid Translation formally signs off on every transcript, assuming full legal responsibility for its execution.</p>
+      </div>
+
+      <div class="transcription-card">
+        <h3 data-i18n="transcription.card3.h">Non-Disclosure Guarantee</h3>
+        <p data-i18n="transcription.card3.p">We issue a legally binding Non-Disclosure Agreement (NDA) to guarantee the highest level of protection, confidentiality, and care in processing your sensitive media assets.</p>
+      </div>
+    </div>
+
+    <!-- Centered CTA Button -->
+    <div class="cta-wrapper">
+      <a href="#contact" class="btn btn-gold" data-i18n="hero.ctaQuote">QUICK QUOTE</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEGAL TRANSLATIONS SECTION ============ -->
+<section class="legal-services" id="services-legal">
+  <div class="container">
+    <div class="legal-grid">
+      
+      <!-- Left Column: Content & Expert Profile -->
+      <div class="legal-content reveal">
+        <div class="eyebrow" data-i18n="legal.eyebrow">Servizio Traduzioni Legali e Giuridiche</div>
+        <h2 data-i18n="legal.h2">TRADUZIONE DOCUMENTI LEGALI A MILANO</h2>
+        
+        <p class="lead" data-i18n="legal.p1">
+          L’Agenzia di Traduzioni <strong>Meguid Translation</strong> è specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari in tutte le combinazioni linguistiche, provenienti dall’Estero e per la Notifica di Atti all’Estero, di qualsivoglia natura e complessità.
+        </p>
+        
+        <p data-i18n="legal.p2">
+          Siamo specializzati nella traduzione giurata e legalizzazione di sentenze di divorzio, atti di citazione, decreti ingiuntivi e di ogni atto e documento societario. Gestiamo inoltre con massima perizia la traduzione di procure, testamenti e atti notarili da e per l’estero.
+        </p>
+
+        <div class="ctu-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="ctu-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <div>
+            <h4 data-i18n="legal.ctu_title">I Nostri Traduttori CTU</h4>
+            <p data-i18n="legal.ctu_desc">I nostri traduttori, iscritti all’Albo CTU del Tribunale di Milano, sono professionisti con studi linguistici e giuridici avanzati ed una lunga esperienza sul campo, pronti a tradurre atti complessi in qualsiasi lingua.</p>
+          </div>
+        </div>
+
+        <p class="office-location">
+          <strong data-i18n="legal.office_title">IL NOSTRO UFFICIO È A MILANO</strong><br>
+        </p>
+      </div>
+
+      <!-- Right Column: Delivery Times & Quick Quote (ISO references removed) -->
+      <div class="legal-timeline-card reveal">
+        <h3 data-i18n="legal.time_title">I nostri tempi di consegna</h3>
+        
+        <div class="timeline-item">
+          <div class="time-badge">12h</div>
+          <div>
+            <h4 data-i18n="legal.time1_title">Traduzioni Certificate Ufficiali</h4>
+            <p data-i18n="legal.time1_desc">Consegna rapida garantita entro 12 ore.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time-badge">48h</div>
+          <div>
+            <h4 data-i18n="legal.time2_title">Traduzioni Giurate / Asseverate</h4>
+            <p data-i18n="legal.time2_desc">Asseverazione formale in tribunale in 48 ore.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time-badge">2gg</div>
+          <div>
+            <h4 data-i18n="legal.time3_title">Apostille Aja Urgenti</h4>
+            <p data-i18n="legal.time3_desc">Legalizzazione e Apostille sbrigate in 2 giorni lavorativi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-whatsapp">
+          <p data-i18n="legal.wa_text">TRADUZIONI URGENTI disponibili su Whatsapp</p>
+          <a href="https://wa.me/+39 327 411 3383" target="_blank" class="btn btn-gold w-full text-center">WHATSAPP</a>
+        </div>
+
+        <div class="timeline-cta">
+          <p data-i18n="legal.quote_text">CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO</p>
+          <a href="#contact" class="btn btn-outline w-full text-center" data-i18n="hero.ctaQuote">PREVENTIVO RAPIDO</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="why" id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="why.eyebrow">Why Choose Us</div>
+      <h2 data-i18n="why.h2">Full legal responsibility, on every document we sign</h2>
+      <p data-i18n="why.p">Whether it is a single certificate or a complete legal case file, every document is handled to the same authorized standard.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 data-i18n="why.c1.h">Certified &amp; Legally Signed</h3>
+        <p data-i18n="why.c1.p">Every translation is checked against source terminology and issued with a signed declaration of accuracy.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3 data-i18n="why.c2.h">Guaranteed Delivery Times</h3>
+        <p data-i18n="why.c2.p">Certified translations in 12 hours, sworn/legal translations in 48 hours, urgent apostille and legalization in 2 days.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+        <h3 data-i18n="why.c3.h">Signed Confidentiality</h3>
+        <p data-i18n="why.c3.p">Every project is covered by a signed confidentiality undertaking protecting sensitive data and personal documents.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7"/></svg></div>
+        <h3 data-i18n="why.c4.h">Transparent Pricing</h3>
+        <p data-i18n="why.c4.p">Fixed, per-document pricing confirmed in writing before any work begins — no hidden fees.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div>
+        <h3 data-i18n="why.c5.h">Authorized Translators</h3>
+        <p data-i18n="why.c5.p">Registered, subject-specialist linguists carry out and sign every translation — never machine translation alone.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v12H7l-3 3V4z"/></svg></div>
+        <h3 data-i18n="why.c6.h">Direct Support</h3>
+        <p data-i18n="why.c6.p">Direct WhatsApp, phone, and email support throughout your project, from quotation to delivery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="contact.eyebrow">Get in Touch</div>
+      <h2 style="font-size:clamp(26px,3vw,36px); margin-bottom:22px;" data-i18n="contact.h2">Request a quick, no-obligation quote</h2>
+      <form class="contact-form" id="contactForm">
+        <div class="row-2">
+          <div class="field"><label for="name" data-i18n="contact.name">Full Name</label><input id="name" type="text" data-i18n-placeholder="contact.namePh" placeholder="Your name" required></div>
+          <div class="field"><label for="phone" data-i18n="contact.phone">Phone</label><input id="phone" type="tel" placeholder="" required></div>
+        </div>
+        <div class="field"><label for="email" data-i18n="contact.email">Email</label><input id="email" type="email" placeholder="you@email.com" required></div>
+        <div class="field">
+          <label for="service" data-i18n="contact.service">Service Required</label>
+          <select id="service">
+            <option data-i18n="contact.opt1">Certified Translation</option>
+            <option data-i18n="contact.opt2">Legal Translation</option>
+            <option data-i18n="contact.opt3">Medical Translation</option>
+            <option data-i18n="contact.opt4">Technical Translation</option>
+            <option data-i18n="contact.opt5">Business Translation</option>
+            <option data-i18n="contact.opt6">Academic Translation</option>
+            <option data-i18n="contact.opt7">Website Localization</option>
+            <option data-i18n="contact.opt8">Document Proofreading</option>
+          </select>
+        </div>
+        <div class="field"><label for="message" data-i18n="contact.message">Message</label><textarea id="message" rows="4" data-i18n-placeholder="contact.messagePh" placeholder="Tell us about your document..."></textarea></div>
+        <button type="submit" class="btn btn-primary" style="margin-top:6px;" data-i18n="contact.send">Send Request</button>
+      </form>
+    </div>
+    <div class="reveal">
+      <div class="contact-info">
+       
+        <div class="info-card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 6l9 7 9-7M4 5h16v14H4z"/></svg></div>
+          <div><h4 data-i18n="contact.Translation@ahmedguda.it">Email</h4><p>Translation@ahmedguda.it</p></div>
+        </div>
+        <div class="info-card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.86 9.86 0 0 0 12.04 2z"/></svg></div>
+          <div><h4>WhatsApp</h4><p>+39 327 411 3383</p></div>
+        </div>
+        <div class="info-card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div><h4 data-i18n="contact.hoursLabel">Working Hours</h4><p data-i18n="contact.hoursValue">Sat–Thu, 10:00 AM – 8:00 PM</p></div>
+        </div>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps?q=Roushdy,Alexandria,Egypt&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Office location map"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><img src="images/logo.png" alt="Meguid Translation Logo" class="logo-img"> Meguid Translation</div>
+        <p class="footer-desc" data-i18n="footer.desc">An authorized translation office, registered for certified and sworn translation of official, legal, medical, business, technical, and academic documents</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H16.7V3.7C16.4 3.65 15.4 3.55 14.2 3.55c-2.4 0-4 1.45-4 4.15V9.9H7.5V13h2.7v8h3.3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2 2 0 1 1 0 4.001 2 2 0 0 1 0-4zM3 8.98h4v12H3zM9.5 8.98h3.8v1.64h.05c.53-.98 1.83-2 3.76-2 4.02 0 4.76 2.5 4.76 5.75v6.6h-4v-5.85c0-1.4-.03-3.2-1.95-3.2-1.96 0-2.26 1.5-2.26 3.1v5.95h-4z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5 data-i18n="footer.quickLinks">Quick Links</h5>
+        <ul>
+          <li><a href="#about" data-i18n="footer.aboutUs">About Us</a></li>
+          <li><a href="#home" data-i18n="nav.home">Home page</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#languages" data-i18n="nav.languages">Languages</a></li>
+          <li><a href="#transcription" data-i18n="nav.sworn">Sworn Translations</a></li>
+          <li><a href="#services-legal" data-i18n="nav.legal">Legal Translations</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        
+        
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="footer.services">Services</h5>
+        <ul>
+          <li><a href="#services" data-i18n="services.s1.h">Certified Translation</a></li>
+          <li><a href="#services" data-i18n="services.s2.h">Legal Translation</a></li>
+          <li><a href="#services" data-i18n="services.s3.h">Medical Translation</a></li>
+          <li><a href="#services" data-i18n="services.s5.h">Business Translation</a></li>
+          <li><a href="#services" data-i18n="services.s7.h">Website Localization</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="nav.contact">Contact</h5>
+        <ul>
+          <li>Translation@ahmedguda.it</li>
+          <li>+39 327 411 3383</li>
+          <li>Italy, Milano</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.copyright">© 2026 Meguid Translation. All rights reserved.</span>
+      <span data-i18n="footer.tagline">Certified. Signed. Legally Responsible.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/+393274113383" target="_blank" class="wa-float" aria-label="Contact on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.86 9.86 0 0 0 12.04 2z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html> 
