@@ -252,25 +252,23 @@
     display:none;
     position:fixed;
     top:14px; right:20px;
-    flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:5px;
-    width:46px; height:46px;
-    background:var(--white);
-    border:1.5px solid var(--line);
-    border-radius:12px;
+    padding:11px 20px;
+    background:var(--navy-900);
+    color:var(--white);
+    border:none;
+    border-radius:999px;
     box-shadow:var(--shadow-card);
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.03em;
     z-index:2100;
   }
-  .burger span{
-    width:20px; height:2px; background:var(--navy-900);
-    border-radius:2px;
-    transition:transform .3s var(--ease), opacity .3s var(--ease);
-  }
-  .burger.active span:nth-child(1){ transform:translateY(7px) rotate(45deg); }
-  .burger.active span:nth-child(2){ opacity:0; }
-  .burger.active span:nth-child(3){ transform:translateY(-7px) rotate(-45deg); }
+  .burger-label-close{ display:none; }
+  .burger.active .burger-label-open{ display:none; }
+  .burger.active .burger-label-close{ display:inline; }
 
   /* ---------- HERO ---------- */
   .hero{
@@ -790,11 +788,11 @@
     /* Container padding */
     .container { padding: 0 20px; }
 
-    /* Header logo shrinks so it doesn't dominate a small header */
-    .logo-img{ height:60px; max-width:120px; }
+    /* Header logo — noticeably bigger on phone screens */
+    .logo-img{ height:100px; max-width:170px; }
     .logo-text{ display:none; }
-    header{ padding:8px 0; }
-    .burger{ top:18px; }
+    header{ padding:6px 0; }
+    .burger{ top:24px; }
 
     /* Redundant with the floating WhatsApp button — free up room for the burger */
     .nav-cta .btn-gold{ display:none !important; }
@@ -836,7 +834,7 @@
     .timeline-item { gap: 12px; }
 
     /* Hero tightened up on small screens */
-    .hero{ padding:120px 0 60px; }
+    .hero{ padding:160px 0 60px; }
     .hero-trust{ gap:22px; }
     .hero-ctas .btn{ width:100%; }
   }
