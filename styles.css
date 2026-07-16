@@ -1027,7 +1027,7 @@ header nav .logo {
 
 /* Make the logo image bigger */
 header nav .logo-img {
-  height: 90px; /* Increased size to fill the empty space */
+  height: 100px; /* Increased size to fill the empty space */
   width: auto;
   display: block;
   transition: transform 0.2s ease;
@@ -1058,7 +1058,7 @@ header nav {
 /* Responsive tweak for smaller mobile screens */
 @media (max-width: 480px) {
   header nav .logo-img {
-    height: 45px; /* Slightly smaller on tiny screens so it fits */
+    height: 100x; /* Slightly smaller on tiny screens so it fits */
   }
   header nav .logo-text {
     font-size: 18px; /* Scales down text on small screens */
