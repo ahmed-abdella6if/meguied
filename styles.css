@@ -1081,3 +1081,56 @@ header nav {
     display: none !important;
   }
 }
+/* FORCE the container to sit side-by-side and keep the text next to the image */
+header nav .logo, 
+header nav a.logo,
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important; 
+  text-decoration: none !important;
+  width: auto !important;
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+/* Perfect sizing for the logo image */
+header nav .logo-img,
+.logo-img {
+  height: 75px !important; 
+  width: auto !important;
+  display: block !important;
+  flex-shrink: 0 !important; /* Never let the image squeeze the text space */
+}
+
+/* FORCE the text to show, stand out, and be brightly colored */
+header nav .logo-text,
+.logo-text {
+  display: inline-block !important; /* Forces rendering */
+  visibility: visible !important;   /* Overrides any hidden attributes */
+  opacity: 1 !important;            /* Overrides any transparent fades */
+  
+  /* Font & Styling */
+  font-family: 'Fraunces', serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;      /* Extra bold so you can spot it instantly */
+  color: #0A1930 !important;        /* Pure, deep navy blue (will show on light backgrounds) */
+  letter-spacing: -0.5px !important;
+  white-space: nowrap !important;   /* Keep it on one line */
+}
+
+/* If your header background is dark navy, use this line instead for white text: */
+/* header nav .logo-text { color: #ffffff !important; } */
+
+/* Clean mobile scaling */
+@media (max-width: 480px) {
+  header nav .logo-img,
+  .logo-img {
+    height: 45px !important;
+  }
+  header nav .logo-text,
+  .logo-text {
+    display: inline-block !important;
+    font-size: 16px !important;
+  }
+}
