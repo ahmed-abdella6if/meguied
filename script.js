@@ -226,3 +226,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const openBtn = document.getElementById("bottomMenuBtn");
+  const closeBtn = document.getElementById("sheetCloseBtn");
+  const sheet = document.getElementById("bottomSheet");
+  const overlay = document.getElementById("sheetOverlay");
+  const sheetLinks = document.querySelectorAll(".sheet-content a");
+
+  function openSheet() {
+    sheet.classList.add("active");
+    overlay.classList.add("active");
+    document.body.style.overflow = "hidden"; // Prevent background scroll
+  }
+
+  function closeSheet() {
+    sheet.classList.remove("active");
+    overlay.classList.remove("active");
+    document.body.style.overflow = ""; // Enable scroll
+  }
+
+  // Open & Close bindings
+  openBtn.addEventListener("click", openSheet);
+  closeBtn.addEventListener("click", closeSheet);
+  overlay.addEventListener("click", closeSheet);
+
+  // Auto-close sheet when any link inside it is clicked
+  sheetLinks.forEach(link => {
+    link.addEventListener("click", closeSheet);
+  });
+});
