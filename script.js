@@ -36,8 +36,8 @@ contactForm.addEventListener('submit', (e) => {
 // ---------- Translations ----------
 const translations = {
   it: {
-    
-    // New Navbar Keys
+    // New Navbar Keys (Added 'nav.logo' key here!)
+    'nav.logo': 'Meguid Translation',
     'nav.home': 'Home page',
     'nav.sworn': 'Traduzioni Giurate',
     'nav.legal': 'Traduzioni Legali',
@@ -72,65 +72,64 @@ const translations = {
     'time.apostille': 'Apostille Aja urgenti in 2 giorni',
     'time.guarantee': 'Agenzia con Garanzia di Qualità',
     'transcription.eyebrow': 'Trascrizioni e Perizie Giurate',
-   'transcription.h2': 'PERIZIA DI TRASCRIZIONE E REGISTRAZIONE AUDIO A MILANO',
-  'transcription.sub': 'Servizio professionale di sbobinatura e trascrizione legale. Operiamo in italiano e in tutte le principali combinazioni linguistiche estere.',
-  'transcription.card1.h': 'Accuratezza & Competenza',
-  'transcription.card1.p': 'Trascrivere con fedeltà assoluta una traccia audio o video richiede una sensibilità linguistica straordinaria e una profonda competenza tecnica.',
-  'transcription.card2.h': 'Valore Legale in Tribunale',
-  'transcription.card2.p': 'Asseverare una trascrizione come Perizia Giurata comporta precise responsabilità civili e penali. Meguid Translation sottoscrive formalmente ogni documento redatto, assumendosene la piena responsabilità legale.',
-  'transcription.card3.h': 'Riservatezza Assoluta',
-  'transcription.card3.p': 'Rilasciamo un Accordo di Riservatezza (NDA) vincolante per garantire la massima tutela, segretezza e cura nel trattamento dei vostri dati sensibili e file audio.',
-  'legal.eyebrow': 'Servizio Traduzioni Legali e Giuridiche',
-  'legal.h2': 'TRADUZIONE DOCUMENTI LEGALI A MILANO',
-  'legal.p1': 'L’Agenzia di Traduzioni Meguid Translation è specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari in tutte le combinazioni linguistiche, provenienti dall’Estero e per la Notifica di Atti all’Estero, di qualsivoglia natura e complessità.',
-  'legal.p2': 'Siamo specializzati nella traduzione giurata e legalizzazione di sentenze di divorzio, atti di citazione, decreti ingiuntivi e di ogni atto e documento societario. Gestiamo inoltre con massima perizia la traduzione di procure, testamenti e atti notarili da e per l’estero.',
-  'legal.ctu_title': 'I Nostri Traduttori CTU',
-  'legal.ctu_desc': 'I nostri traduttori, iscritti all’Albo CTU del Tribunale di Milano, sono professionisti con studi linguistici e giuridici avanzati ed una lunga esperienza sul campo, pronti a tradurre atti complessi in qualsiasi lingua.',
-  'legal.office_title': 'IL NOSTRO UFFICIO È A MILANO:',
-  'legal.office_address': 'Via Giuseppe Prina, 15 (Arco della Pace).',
-  'legal.time_title': 'I nostri tempi di consegna',
-  'legal.time1_title': 'Traduzioni Certificate Ufficiali',
-  'legal.time1_desc': 'Consegna rapida garantita entro 12 ore.',
-  'legal.time2_title': 'Traduzioni Giurate / Asseverate',
-  'legal.time2_desc': 'Asseverazione formale in tribunale anche in 48 ore.',
-  'legal.time3_title': 'Apostille Aja Urgenti',
-  'legal.time3_desc': 'Pratiche di legalizzazione e Apostille gestite in 2 giorni.',
-  'legal.wa_text': 'TRADUZIONI URGENTI disponibili su Whatsapp',
-  'legal.quote_text': 'CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO'
- ,'about.eyebrow': 'UFFICIO TRADUZIONI PROFESSIONALI A MILANO',
-  'about.h2': 'Un ufficio autorizzato, pienamente responsabile di ciò che firma',
-  'about.p1': 'L’ Agenzia di Traduzioni Meguid Translation è specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari, anche per Notifica all’Estero, di qualsivoglia natura e complessità. Traduzione giurata di sentenze di divorzio, atti di citazione, decreti ingiuntivi. Traduzione di Procure e Atti notarili da e per l’Estero.',
-  'about.p2': 'Gestiamo progetti di Traduzione di Documenti Legali, Atti Giudiziari e Notarili, Certificati e Titoli di Studio rilasciati in Italia o all\'estero. Traduzione di Visure Camerali, Bilanci e di ogni documento di carattere societario. Siamo specializzati nella Traduzione e Legalizzazione di Documenti per la partecipazione a Gare d\'appalto estere. Traduzioni Tecniche e di Manuali. Traduzioni Scientifiche e Mediche.',
-  'about.stat1': 'Lingue supportate',
-  'about.stat2': 'Documenti certificati',
-  'about.stat3': 'Consegna traduzioni certificate',
-  'about.stat4': 'Gestione riservata e firmata'
-},
+    'transcription.h2': 'PERIZIA DI TRASCRIZIONE E REGISTRAZIONE AUDIO A MILANO',
+    'transcription.sub': 'Servizio professionale di sbobinatura e trascrizione legale. Operiamo in italiano e in tutte le principali combinazioni linguistiche estere.',
+    'transcription.card1.h': 'Accuratezza & Competenza',
+    'transcription.card1.p': 'Trascrivere con fedeltà assoluta una traccia audio o video richiede una sensibilità linguistica straordinaria e una profonda competenza tecnica.',
+    'transcription.card2.h': 'Valore Legale in Tribunale',
+    'transcription.card2.p': 'Asseverare una trascrizione come Perizia Giurata comporta precise responsabilità civili e penali. Meguid Translation sottoscrive formalmente ogni documento redatto, assumendosene la piena responsabilità legale.',
+    'transcription.card3.h': 'Riservatezza Assoluta',
+    'transcription.card3.p': 'Rilasciamo un Accordo di Riservatezza (NDA) vincolante per garantire la massima tutela, segretezza e cura nel trattamento dei vostri dati sensibili e file audio.',
+    'legal.eyebrow': 'Servizio Traduzioni Legali e Giuridiche',
+    'legal.h2': 'TRADUZIONE DOCUMENTI LEGALI A MILANO',
+    'legal.p1': 'L’Agenzia di Traduzioni Meguid Translation è specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari in tutte le combinazioni linguistiche, provenienti dall’Estero e per la Notifica di Atti all’Estero, di qualsivoglia natura e complessità.',
+    'legal.p2': 'Siamo specializzati nella traduzione giurata e legalizzazione di sentenze di divorzio, atti di citazione, decreti ingiuntivi e di ogni atto e documento societario. Gestiamo inoltre con massima perizia la traduzione di procure, testamenti e atti notarili da e per l’estero.',
+    'legal.ctu_title': 'I Nostri Traduttori CTU',
+    'legal.ctu_desc': 'I nostri traduttori, iscritti all’Albo CTU del Tribunale di Milano, sono professionisti con studi linguistici e giuridici avanzati ed una lunga esperienza sul campo, pronti a tradurre atti complessi in qualsiasi lingua.',
+    'legal.office_title': 'IL NOSTRO UFFICIO È A MILANO:',
+    'legal.office_address': 'Via Giuseppe Prina, 15 (Arco della Pace).',
+    'legal.time_title': 'I nostri tempi di consegna',
+    'legal.time1_title': 'Traduzioni Certificate Ufficiali',
+    'legal.time1_desc': 'Consegna rapida garantita entro 12 ore.',
+    'legal.time2_title': 'Traduzioni Giurate / Asseverate',
+    'legal.time2_desc': 'Asseverazione formale in tribunale anche in 48 ore.',
+    'legal.time3_title': 'Apostille Aja Urgenti',
+    'legal.time3_desc': 'Pratiche di legalizzazione e Apostille gestite in 2 giorni.',
+    'legal.wa_text': 'TRADUZIONI URGENTI disponibili su Whatsapp',
+    'legal.quote_text': 'CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO',
+    'about.h2': 'Un ufficio autorizzato, pienamente responsabile di ciò che firma',
+    'about.stat1': 'Lingue supportate',
+    'about.stat2': 'Documenti certificati',
+    'about.stat3': 'Consegna traduzioni certificate',
+    'about.stat4': 'Gestione riservata e firmata'
+  },
   en: {
-    'legal.eyebrow': 'Legal and Judicial Translation Services',
-  'legal.h2': 'LEGAL DOCUMENT TRANSLATIONS IN MILAN',
-  'legal.p1': 'Meguid Translation agency specializes in Sworn Translations, Court Filings, and Legalizations of judicial documents in all language combinations, including cross-border notification filings of any nature and complexity.',
-  'legal.p2': 'We are specialized in sworn translation and legalization of divorce decrees, summonses, injunctions, and all corporate records. We also handle powers of attorney, wills, and notary deeds to and from abroad with exceptional accuracy.',
-  'legal.ctu_title': 'Our Court-Appointed Translators (CTU)',
-  'legal.ctu_desc': 'Our translators, registered with the Court of Milan (CTU), are experts with advanced legal and linguistic qualifications and extensive industry experience, capable of translating complex documents into any language.',
-  'legal.office_title': 'OUR OFFICE IS IN MILAN:',
-  'legal.office_address': 'Via Giuseppe Prina, 15 (Arco della Pace).',
-  'legal.time_title': 'Our Delivery Times',
-  'legal.time1_title': 'Official Certified Translations',
-  'legal.time1_desc': 'Guaranteed swift turnaround within 12 hours.',
-  'legal.time2_title': 'Sworn & Certified Court Translations',
-  'legal.time2_desc': 'Formal court filings finalized within 48 hours.',
-  'legal.time3_title': 'Urgent Hague Apostille',
-  'legal.time3_desc': 'Legalization and Apostille processing completed in 2 days.',
-  'legal.wa_text': 'URGENT TRANSLATIONS available on Whatsapp',
-  'legal.quote_text': 'CONTACT US FOR A FREE QUICK QUOTE',
-    // New Navbar Keys
+    // New Navbar Keys (Added 'nav.logo' key here!)
+    'nav.logo': 'Meguid Translation',
     'nav.home': 'Home page',
     'nav.sworn': 'Sworn Translations',
     'nav.legal': 'Legal Translations',
     'nav.contact': 'Contact Us',
     'nav.languages': 'Languages',
     'nav.call': 'CALL US',
+
+    'legal.eyebrow': 'Legal and Judicial Translation Services',
+    'legal.h2': 'LEGAL DOCUMENT TRANSLATIONS IN MILAN',
+    'legal.p1': 'Meguid Translation agency specializes in Sworn Translations, Court Filings, and Legalizations of judicial documents in all language combinations, including cross-border notification filings of any nature and complexity.',
+    'legal.p2': 'We are specialized in sworn translation and legalization of divorce decrees, summonses, injunctions, and all corporate records. We also handle powers of attorney, wills, and notary deeds to and from abroad with exceptional accuracy.',
+    'legal.ctu_title': 'Our Court-Appointed Translators (CTU)',
+    'legal.ctu_desc': 'Our translators, registered with the Court of Milan (CTU), are experts with advanced legal and linguistic qualifications and extensive industry experience, capable of translating complex documents into any language.',
+    'legal.office_title': 'OUR OFFICE IS IN MILAN:',
+    'legal.office_address': 'Via Giuseppe Prina, 15 (Arco della Pace).',
+    'legal.time_title': 'Our Delivery Times',
+    'legal.time1_title': 'Official Certified Translations',
+    'legal.time1_desc': 'Guaranteed swift turnaround within 12 hours.',
+    'legal.time2_title': 'Sworn & Certified Court Translations',
+    'legal.time2_desc': 'Formal court filings finalized within 48 hours.',
+    'legal.time3_title': 'Urgent Hague Apostille',
+    'legal.time3_desc': 'Legalization and Apostille processing completed in 2 days.',
+    'legal.wa_text': 'URGENT TRANSLATIONS available on Whatsapp',
+    'legal.quote_text': 'CONTACT US FOR A FREE QUICK QUOTE',
 
     // Hero Section
     'hero.eyebrow': 'Translations with Legal Value',
@@ -159,22 +158,20 @@ const translations = {
     'time.apostille': 'Urgent Hague Apostille in 2 days',
     'time.guarantee': 'Agency with Quality Guarantee',
     'transcription.eyebrow': 'Sworn Transcriptions & Expert Reports',
-  'transcription.h2': 'AUDIO RECORDING TRANSCRIPTION & COURT EXPERTISE IN MILAN',
-  'transcription.sub': 'Professional audio-to-text legal transcription and court certification. Available in Italian and all major foreign languages.',
-  'transcription.card1.h': 'Accuracy & Linguistic Expertise',
-  'transcription.card1.p': 'Transcribing an audio or video track with absolute fidelity demands exceptional linguistic sensitivity and deep technical domain expertise.',
-  'transcription.card2.h': 'Legal Value in Court',
-  'transcription.card2.p': 'Certifying an audio transcript as a Sworn Expert Report carries substantial civil and criminal liabilities. Meguid Translation formally signs off on every transcript, assuming full legal responsibility for its execution.',
-  'transcription.card3.h': 'Non-Disclosure Guarantee',
-  'transcription.card3.p': 'We issue a legally binding Non-Disclosure Agreement (NDA) to guarantee the highest level of protection, confidentiality, and care in processing your sensitive media assets.'
-  ,'about.eyebrow': 'PROFESSIONAL TRANSLATION OFFICE IN MILAN',
-  'about.h2': 'An authorized office, fully responsible for what it signs',
-  'about.p1': 'The Meguid Translation Agency specializes in Sworn Translations, Court Filings, and Legalization of Court Records, including international service of process, of any nature and complexity. Sworn translation of divorce decrees, summonses, and injunctions. Translation of Powers of Attorney and notary deeds to and from abroad.',
-  'about.p2': 'We manage translation projects for Legal Documents, Judicial and Notarial Acts, Certificates, and Degrees issued in Italy or abroad. Translation of Chamber of Commerce profiles, Financial Statements, and all corporate documents. We specialize in the Translation and Legalization of Documents for participation in foreign tenders. Technical and Manual Translations. Scientific and Medical Translations.',
-  'about.stat1': 'Languages supported',
-  'about.stat2': 'Documents certified',
-  'about.stat3': 'Certified translation delivery',
-  'about.stat4': 'Confidential, signed handling'}
+    'transcription.h2': 'AUDIO RECORDING TRANSCRIPTION & COURT EXPERTISE IN MILAN',
+    'transcription.sub': 'Professional audio-to-text legal transcription and court certification. Available in Italian and all major foreign languages.',
+    'transcription.card1.h': 'Accuracy & Linguistic Expertise',
+    'transcription.card1.p': 'Transcribing an audio or video track with absolute fidelity demands exceptional linguistic sensitivity and deep technical domain expertise.',
+    'transcription.card2.h': 'Legal Value in Court',
+    'transcription.card2.p': 'Certifying an audio transcript as a Sworn Expert Report carries substantial civil and criminal liabilities. Meguid Translation formally signs off on every transcript, assuming full legal responsibility for its execution.',
+    'transcription.card3.h': 'Non-Disclosure Guarantee',
+    'transcription.card3.p': 'We issue a legally binding Non-Disclosure Agreement (NDA) to guarantee the highest level of protection, confidentiality, and care in processing your sensitive media assets.',
+    'about.h2': 'An authorized office, fully responsible for what it signs',
+    'about.stat1': 'Languages supported',
+    'about.stat2': 'Documents certified',
+    'about.stat3': 'Certified translation delivery',
+    'about.stat4': 'Confidential, signed handling'
+  }
 };
 
 // ---------- Language switching ----------
@@ -200,6 +197,7 @@ function setLanguage(lang) {
 document.querySelectorAll('[data-lang-btn]').forEach(btn => {
   btn.addEventListener('click', () => setLanguage(btn.getAttribute('data-lang-btn')));
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   const burgerBtn = document.getElementById("burgerBtn");
   const mobileDrawer = document.getElementById("mobileDrawer");
@@ -226,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   const openBtn = document.getElementById("bottomMenuBtn");
   const closeBtn = document.getElementById("sheetCloseBtn");
@@ -246,9 +245,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Open & Close bindings
-  openBtn.addEventListener("click", openSheet);
-  closeBtn.addEventListener("click", closeSheet);
-  overlay.addEventListener("click", closeSheet);
+  if (openBtn) openBtn.addEventListener("click", openSheet);
+  if (closeBtn) closeBtn.addEventListener("click", closeSheet);
+  if (overlay) overlay.addEventListener("click", closeSheet);
 
   // Auto-close sheet when any link inside it is clicked
   sheetLinks.forEach(link => {
