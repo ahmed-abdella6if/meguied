@@ -1016,127 +1016,58 @@
   display: block;
   margin-bottom: 10px;
 }
-/* Force the logo container to be wide enough and align items */
-header nav .logo, 
-header nav a.logo {
-  display: flex !important;
-  align-items: center !important;
-  gap: 15px !important; /* Space between logo image and text */
-  text-decoration: none !important;
-  width: auto !important; /* Prevents container from squeezing text */
-  max-width: none !important; /* Overrides any restrictive max-widths */
-  overflow: visible !important; /* Ensures text never gets clipped or hidden */
+
+/* Align the logo image and text next to each other */
+.header nav .logo {
+ display: flex;
+ align-items: center;
+ gap: 14px; /* Space between logo image and text */
+ text-decoration: none;
 }
 
-/* The Logo Image */
-header nav .logo-img {
-  height: 75px !important; /* Compact, balanced desktop size */
-  width: auto !important;
-  display: block !important;
-  flex-shrink: 0 !important; /* Stops the image from compressing the text to 0 width */
-  transition: transform 0.2s ease;
+/* Make the logo image bigger */
+.header nav .logo-img {
+ height: 140px !important; /* Made it much larger on desktop */
+ width: auto !important;
+ display: block !important;
+ transition: transform 0.2s ease;
 }
 
-header nav .logo:hover .logo-img {
-  transform: scale(1.03);
+.header nav .logo:hover .logo-img {
+ transform: scale(1.05); /* Subtle interactive pop on hover */
 }
 
-/* Force the Text to Show Up */
-header nav .logo-text {
-  display: inline-block !important; /* Overrides 'display: none' */
-  visibility: visible !important; /* Overrides 'visibility: hidden' */
-  opacity: 1 !important; /* Overrides 'opacity: 0' */
-  
-  /* Styling */
-  font-family: 'Fraunces', serif !important;
-  font-size: 22px !important;
-  font-weight: 600 !important;
-  color: var(--navy-900) !important;
-  letter-spacing: -0.5px !important;
-  white-space: nowrap !important; /* Force text onto a single line */
+/* Style the brand text next to the logo */
+.header nav .logo-text {
+ font-family: 'Fraunces', serif; /* Matching your elegant editorial font */
+ font-size: 26px !important; /* Slightly larger to match the bigger logo */
+ font-weight: 600;
+ color: var(--navy-900);
+ letter-spacing: -0.5px;
+ white-space: nowrap; /* Prevents the text from wrapping to a second line */
 }
 
-/* Clean Nav Spacing */
-header nav {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  padding: 8px 0 !important;
+/* Make sure the header nav elements are vertically aligned and spread out */
+.header nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 0; /* Tightened padding slightly so the massive logo doesn't make the header too tall */
 }
 
-/* Mobile responsive scaling */
+/* Responsive tweak for smaller mobile screens */
 @media (max-width: 480px) {
-  header nav .logo-img {
-    height: 45px !important; /* Super clean and compact on phones */
-  }
-  header nav .logo-text {
-    display: inline-block !important;
-    font-size: 16px !important; /* Scale down so it fits smaller screens */
-  }
+ .header nav .logo-img {
+  height: 250px !important; /* Fixed the "100x" typo to "110px" and made it much larger on mobile */
+ }
+ .header nav .logo-text {
+ font-size: 20px !important; /* Scales down text on small screens */
+ }
 }
 
 /* Hide the floating WhatsApp button only on mobile screens */
 @media (max-width: 768px) {
-  .wa-float {
-    display: none !important;
-  }
+ .wa-float {
+ display: none !important;
 }
-/* FORCE the container to sit side-by-side and keep the text next to the image */
-header nav .logo, 
-header nav a.logo,
-.logo {
-  display: flex !important;
-  align-items: center !important;
-  gap: 12px !important; 
-  text-decoration: none !important;
-  width: auto !important;
-  max-width: none !important;
-  overflow: visible !important;
-}
-
-/* Perfect sizing for the logo image */
-header nav .logo-img,
-.logo-img {
-  height: 75px !important; 
-  width: auto !important;
-  display: block !important;
-  flex-shrink: 0 !important; /* Never let the image squeeze the text space */
-}
-
-/* FORCE the text to show, stand out, and be brightly colored */
-header nav .logo-text,
-.logo-text {
-  display: inline-block !important; /* Forces rendering */
-  visibility: visible !important;   /* Overrides any hidden attributes */
-  opacity: 1 !important;            /* Overrides any transparent fades */
-  
-  /* Font & Styling */
-  font-family: 'Fraunces', serif !important;
-  font-size: 22px !important;
-  font-weight: 700 !important;      /* Extra bold so you can spot it instantly */
-  color: #0A1930 !important;        /* Pure, deep navy blue (will show on light backgrounds) */
-  letter-spacing: -0.5px !important;
-  white-space: nowrap !important;   /* Keep it on one line */
-}
-
-/* If your header background is dark navy, use this line instead for white text: */
-/* header nav .logo-text { color: #ffffff !important; } */
-
-/* Clean mobile scaling */
-@media (max-width: 480px) {
-  header nav .logo-img,
-  .logo-img {
-    height: 45px !important;
-  }
-  header nav .logo-text,
-  .logo-text {
-    display: inline-block !important;
-    font-size: 16px !important;
-  }
-}
-
-.static-logo-text {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
 }
