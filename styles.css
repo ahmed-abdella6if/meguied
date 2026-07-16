@@ -1016,3 +1016,51 @@
   display: block;
   margin-bottom: 10px;
 }
+
+/* Align the logo image and text next to each other */
+header nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 14px; /* Space between logo image and text */
+  text-decoration: none;
+}
+
+/* Make the logo image bigger */
+header nav .logo-img {
+  height: 55px; /* Increased size to fill the empty space */
+  width: auto;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+header nav .logo:hover .logo-img {
+  transform: scale(1.05); /* Subtle interactive pop on hover */
+}
+
+/* Style the brand text next to the logo */
+header nav .logo-text {
+  font-family: 'Fraunces', serif; /* Matching your elegant editorial font */
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--navy-900);
+  letter-spacing: -0.5px;
+  white-space: nowrap; /* Prevents the text from wrapping to a second line */
+}
+
+/* Make sure the header nav elements are vertically aligned and spread out */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0; /* Adds comfortable breathing room */
+}
+
+/* Responsive tweak for smaller mobile screens */
+@media (max-width: 480px) {
+  header nav .logo-img {
+    height: 45px; /* Slightly smaller on tiny screens so it fits */
+  }
+  header nav .logo-text {
+    font-size: 18px; /* Scales down text on small screens */
+  }
+}
