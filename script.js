@@ -47,12 +47,12 @@ const translations = {
 
     // Hero Section (Refined copy, no ISO mention)
     'hero.eyebrow': 'Traduzioni con Valore Legale',
-    'hero.headline': 'AGENZIA DI TRADUZIONI GIURATE CON VALORE LEGALE IN ITALIA E ALL’ESTERO',
-    'hero.sub': 'Siamo Traduttori Ufficiali iscritti all’Albo del Tribunale di Milano, abilitati alla traduzione e legalizzazione di documenti per uso legale e Consolare, Privato e Societario, validi su tutto il territorio nazionale e all’estero.',
-    'hero.authorized': 'Il nostro ufficio è a Milano in Via Giuseppe Prina, 15 (Arco della Pace).',
+    'hero.headline': 'AGENZIA DI TRADUZIONI GIURATE CON VALORE LEGALE IN ITALIA E ALL\u2019ESTERO',
+    'hero.sub': 'Siamo Traduttori Ufficiali iscritti all\u2019Albo del Tribunale di Milano, abilitati alla traduzione e legalizzazione di documenti per uso legale e Consolare, Privato e Societario, validi su tutto il territorio nazionale e all\u2019estero.',
+    'hero.authorized': 'Il nostro ufficio \u00e8 a Milano in Via Giuseppe Prina, 15 (Arco della Pace).',
     'hero.ctaQuote': 'PREVENTIVO RAPIDO',
     'hero.ctaCall': 'Chiama: 800 960827',
-    
+
     // Quick Stats/Timelines (ISO reference removed)
     'hero.stat1': 'Traduzioni Certificate',
     'hero.stat2': 'Traduzioni Giurate / Asseverate',
@@ -61,32 +61,32 @@ const translations = {
 
     // About/Main Body Section
     'about.eyebrow': 'UFFICIO TRADUZIONI PROFESSIONALI A MILANO',
-    'about.p1': 'L’ Agenzia di Traduzioni TRADUX ® è specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari, anche per Notifica all’Estero, di qualsivoglia natura e complessità. Traduzione giurata di sentenze di divorzio, atti di citazione, decreti ingiuntivi. Traduzione di Procure e Atti notarili da e per l’Estero.',
+    'about.p1': 'L\u2019 Agenzia di Traduzioni TRADUX \u00ae \u00e8 specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari, anche per Notifica all\u2019Estero, di qualsivoglia natura e complessit\u00e0. Traduzione giurata di sentenze di divorzio, atti di citazione, decreti ingiuntivi. Traduzione di Procure e Atti notarili da e per l\u2019Estero.',
     'about.p2': 'Gestiamo progetti di Traduzione di Documenti Legali, Atti Giudiziari e Notarili, Certificati e Titoli di Studio rilasciati in Italia o all\'estero. Traduzione di Visure Camerali, Bilanci e di ogni documento di carattere societario. Siamo specializzati nella Traduzione e Legalizzazione di Documenti per la partecipazione a Gare d\'appalto estere. Traduzioni Tecniche e di Manuali. Traduzioni Scientifiche e Mediche.',
     'about.urgent': 'TRADUZIONI URGENTI disponibili su Whatsapp',
     'about.quote_title': 'CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO',
-    
+
     // Delivery timelines (ISO reference removed)
     'time.cert': 'Traduzioni Certificate in 12 ore',
     'time.sworn': 'Traduzioni Giurate / Asseverate anche in 48 ore',
     'time.apostille': 'Apostille Aja urgenti in 2 giorni',
-    'time.guarantee': 'Agenzia con Garanzia di Qualità',
+    'time.guarantee': 'Agenzia con Garanzia di Qualit\u00e0',
     'transcription.eyebrow': 'Trascrizioni e Perizie Giurate',
     'transcription.h2': 'PERIZIA DI TRASCRIZIONE E REGISTRAZIONE AUDIO A MILANO',
     'transcription.sub': 'Servizio professionale di sbobinatura e trascrizione legale. Operiamo in italiano e in tutte le principali combinazioni linguistiche estere.',
     'transcription.card1.h': 'Accuratezza & Competenza',
-    'transcription.card1.p': 'Trascrivere con fedeltà assoluta una traccia audio o video richiede una sensibilità linguistica straordinaria e una profonda competenza tecnica.',
+    'transcription.card1.p': 'Trascrivere con fedelt\u00e0 assoluta una traccia audio o video richiede una sensibilit\u00e0 linguistica straordinaria e una profonda competenza tecnica.',
     'transcription.card2.h': 'Valore Legale in Tribunale',
-    'transcription.card2.p': 'Asseverare una trascrizione come Perizia Giurata comporta precise responsabilità civili e penali. Meguid Translation sottoscrive formalmente ogni documento redatto, assumendosene la piena responsabilità legale.',
+    'transcription.card2.p': 'Asseverare una trascrizione come Perizia Giurata comporta precise responsabilit\u00e0 civili e penali. Meguid Translation sottoscrive formalmente ogni documento redatto, assumendosene la piena responsabilit\u00e0 legale.',
     'transcription.card3.h': 'Riservatezza Assoluta',
     'transcription.card3.p': 'Rilasciamo un Accordo di Riservatezza (NDA) vincolante per garantire la massima tutela, segretezza e cura nel trattamento dei vostri dati sensibili e file audio.',
     'legal.eyebrow': 'Servizio Traduzioni Legali e Giuridiche',
     'legal.h2': 'TRADUZIONE DOCUMENTI LEGALI A MILANO',
-    'legal.p1': 'L’Agenzia di Traduzioni Meguid Translation è specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari in tutte le combinazioni linguistiche, provenienti dall’Estero e per la Notifica di Atti all’Estero, di qualsivoglia natura e complessità.',
-    'legal.p2': 'Siamo specializzati nella traduzione giurata e legalizzazione di sentenze di divorzio, atti di citazione, decreti ingiuntivi e di ogni atto e documento societario. Gestiamo inoltre con massima perizia la traduzione di procure, testamenti e atti notarili da e per l’estero.',
+    'legal.p1': 'L\u2019Agenzia di Traduzioni Meguid Translation \u00e8 specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari in tutte le combinazioni linguistiche, provenienti dall\u2019Estero e per la Notifica di Atti all\u2019Estero, di qualsivoglia natura e complessit\u00e0.',
+    'legal.p2': 'Siamo specializzati nella traduzione giurata e legalizzazione di sentenze di divorzio, atti di citazione, decreti ingiuntivi e di ogni atto e documento societario. Gestiamo inoltre con massima perizia la traduzione di procure, testamenti e atti notarili da e per l\u2019estero.',
     'legal.ctu_title': 'I Nostri Traduttori CTU',
-    'legal.ctu_desc': 'I nostri traduttori, iscritti all’Albo CTU del Tribunale di Milano, sono professionisti con studi linguistici e giuridici avanzati ed una lunga esperienza sul campo, pronti a tradurre atti complessi in qualsiasi lingua.',
-    'legal.office_title': 'IL NOSTRO UFFICIO È A MILANO:',
+    'legal.ctu_desc': 'I nostri traduttori, iscritti all\u2019Albo CTU del Tribunale di Milano, sono professionisti con studi linguistici e giuridici avanzati ed una lunga esperienza sul campo, pronti a tradurre atti complessi in qualsiasi lingua.',
+    'legal.office_title': 'IL NOSTRO UFFICIO \u00c8 A MILANO:',
     'legal.office_address': 'Via Giuseppe Prina, 15 (Arco della Pace).',
     'legal.time_title': 'I nostri tempi di consegna',
     'legal.time1_title': 'Traduzioni Certificate Ufficiali',
@@ -97,7 +97,7 @@ const translations = {
     'legal.time3_desc': 'Pratiche di legalizzazione e Apostille gestite in 2 giorni.',
     'legal.wa_text': 'TRADUZIONI URGENTI disponibili su Whatsapp',
     'legal.quote_text': 'CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO',
-    'about.h2': 'Un ufficio autorizzato, pienamente responsabile di ciò che firma',
+    'about.h2': 'Un ufficio autorizzato, pienamente responsabile di ci\u00f2 che firma',
     'about.stat1': 'Lingue supportate',
     'about.stat2': 'Documenti certificati',
     'about.stat3': 'Consegna traduzioni certificate',
@@ -138,7 +138,7 @@ const translations = {
     'hero.authorized': 'Our office is in Milan at Via Giuseppe Prina, 15 (Arco della Pace).',
     'hero.ctaQuote': 'QUICK QUOTE',
     'hero.ctaCall': 'Call: 800 960827',
-    
+
     // Quick Stats/Timelines
     'hero.stat1': 'Certified Translations',
     'hero.stat2': 'Sworn / Certified Translations',
@@ -147,11 +147,11 @@ const translations = {
 
     // About/Main Body Section
     'about.eyebrow': 'PROFESSIONAL TRANSLATION OFFICE IN MILAN',
-    'about.p1': 'The TRADUX ® Translation Agency specializes in Sworn Translations, Court Filings, and Legalization of Court Records, including international service of process, of any nature and complexity. Sworn translation of divorce decrees, summonses, and injunctions. Translation of Powers of Attorney and notary deeds to and from abroad.',
+    'about.p1': 'The TRADUX \u00ae Translation Agency specializes in Sworn Translations, Court Filings, and Legalization of Court Records, including international service of process, of any nature and complexity. Sworn translation of divorce decrees, summonses, and injunctions. Translation of Powers of Attorney and notary deeds to and from abroad.',
     'about.p2': 'We manage translation projects for Legal Documents, Judicial and Notarial Acts, Certificates, and Degrees issued in Italy or abroad. Translation of Chamber of Commerce profiles, Financial Statements, and all corporate documents. We specialize in the Translation and Legalization of Documents for participation in foreign tenders. Technical and Manual Translations. Scientific and Medical Translations.',
     'about.urgent': 'URGENT TRANSLATIONS available on Whatsapp',
     'about.quote_title': 'CONTACT US FOR A FREE QUICK QUOTE',
-    
+
     // Delivery timelines
     'time.cert': 'Certified Translations in 12 hours',
     'time.sworn': 'Sworn / Certified Translations in 48 hours',
@@ -194,8 +194,15 @@ function setLanguage(lang) {
   });
 }
 
-document.querySelectorAll('[data-lang-btn]').forEach(btn => {
-  btn.addEventListener('click', () => setLanguage(btn.getAttribute('data-lang-btn')));
+// FIX: this used to run immediately, before the bottom-sheet's language
+// buttons existed in the DOM (the <script> tag sits before that markup in
+// the HTML). Wrapping it in DOMContentLoaded ensures ALL [data-lang-btn]
+// elements on the page - desktop toggle, drawer toggle, and bottom-sheet
+// toggle - are present before we attach listeners to them.
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-lang-btn]').forEach(btn => {
+    btn.addEventListener('click', () => setLanguage(btn.getAttribute('data-lang-btn')));
+  });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
