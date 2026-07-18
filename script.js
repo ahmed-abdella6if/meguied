@@ -61,7 +61,7 @@ const translations = {
 
     // About/Main Body Section
     'about.eyebrow': 'UFFICIO TRADUZIONI PROFESSIONALI A MILANO',
-    'about.p1': 'L\u2019 Agenzia di Traduzioni TRADUX \u00ae \u00e8 specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari, anche per Notifica all\u2019Estero, di qualsivoglia natura e complessit\u00e0. Traduzione giurata di sentenze di divorzio, atti di citazione, decreti ingiuntivi. Traduzione di Procure e Atti notarili da e per l\u2019Estero.',
+    'about.p1': 'L\u2019 Agenzia di Traduzioni Meguid  \u00e8 specializzata nella Traduzione Giurata, Asseverazione e Legalizzazione di Atti Giudiziari, anche per Notifica all\u2019Estero, di qualsivoglia natura e complessit\u00e0. Traduzione giurata di sentenze di divorzio, atti di citazione, decreti ingiuntivi. Traduzione di Procure e Atti notarili da e per l\u2019Estero.',
     'about.p2': 'Gestiamo progetti di Traduzione di Documenti Legali, Atti Giudiziari e Notarili, Certificati e Titoli di Studio rilasciati in Italia o all\'estero. Traduzione di Visure Camerali, Bilanci e di ogni documento di carattere societario. Siamo specializzati nella Traduzione e Legalizzazione di Documenti per la partecipazione a Gare d\'appalto estere. Traduzioni Tecniche e di Manuali. Traduzioni Scientifiche e Mediche.',
     'about.urgent': 'TRADUZIONI URGENTI disponibili su Whatsapp',
     'about.quote_title': 'CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO',
@@ -229,7 +229,7 @@ const translations = {
 
     // About/Main Body Section
     'about.eyebrow': 'PROFESSIONAL TRANSLATION OFFICE IN MILAN',
-    'about.p1': 'The TRADUX \u00ae Translation Agency specializes in Sworn Translations, Court Filings, and Legalization of Court Records, including international service of process, of any nature and complexity. Sworn translation of divorce decrees, summonses, and injunctions. Translation of Powers of Attorney and notary deeds to and from abroad.',
+    'about.p1': 'The Meguid \u00ae Translation Agency specializes in Sworn Translations, Court Filings, and Legalization of Court Records, including international service of process, of any nature and complexity. Sworn translation of divorce decrees, summonses, and injunctions. Translation of Powers of Attorney and notary deeds to and from abroad.',
     'about.p2': 'We manage translation projects for Legal Documents, Judicial and Notarial Acts, Certificates, and Degrees issued in Italy or abroad. Translation of Chamber of Commerce profiles, Financial Statements, and all corporate documents. We specialize in the Translation and Legalization of Documents for participation in foreign tenders. Technical and Manual Translations. Scientific and Medical Translations.',
     'about.urgent': 'URGENT TRANSLATIONS available on Whatsapp',
     'about.quote_title': 'CONTACT US FOR A FREE QUICK QUOTE',
