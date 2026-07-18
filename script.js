@@ -101,7 +101,89 @@ const translations = {
     'about.stat1': 'Lingue supportate',
     'about.stat2': 'Documenti certificati',
     'about.stat3': 'Consegna traduzioni certificate',
-    'about.stat4': 'Gestione riservata e firmata'
+    'about.stat4': 'Gestione riservata e firmata',
+
+    // Nav (missing key)
+    'nav.services': 'Servizi',
+
+    // Hero WhatsApp CTA
+    'hero.ctaWhatsapp': 'Contattaci su WhatsApp',
+
+    // Services section
+    'services.eyebrow': 'I Nostri Servizi',
+    'services.h2': 'Traduzione certificata per ogni documento ufficiale',
+    'services.p': 'Siamo autorizzati a tradurre e certificare documenti di qualsiasi natura e complessit\u00e0 \u2014 validi presso le autorit\u00e0 egiziane e accettati all\u2019estero.',
+    'services.s1.h': 'Traduzione Certificata',
+    'services.s1.p': 'Traduzione certificata di documenti civili \u2014 certificati di nascita, matrimonio e morte, copie di documenti d\u2019identit\u00e0 e passaporto \u2014 accettata da uffici governativi, ambasciate e consolati.',
+    'services.s2.h': 'Traduzione Legale',
+    'services.s2.p': 'Traduzione giurata e certificata di contratti, sentenze, procure e atti notarili, valida per procedimenti legali in Egitto e all\u2019estero.',
+    'services.s3.h': 'Traduzione Medica',
+    'services.s3.p': 'Traduzione certificata di referti medici, prescrizioni, lettere di dimissione e documentazione clinica, gestita con la massima riservatezza.',
+    'services.s4.h': 'Traduzione Tecnica',
+    'services.s4.p': 'Traduzione di manuali tecnici, schede prodotto e documentazione ingegneristica per il settore industriale e manifatturiero.',
+    'services.s5.h': 'Traduzione Commerciale',
+    'services.s5.p': 'Traduzione certificata di bilanci, visure camerali, statuti societari e documentazione di gara per aziende locali e internazionali.',
+    'services.s6.h': 'Traduzione Accademica',
+    'services.s6.p': 'Traduzione certificata e legalizzazione di diplomi, pagelle e titoli accademici per l\u2019ammissione universitaria e le pratiche visto.',
+    'services.s7.h': 'Localizzazione di Siti Web',
+    'services.s7.p': 'Localizzazione completa di siti web e piattaforme digitali, adattata linguisticamente e culturalmente a ciascun mercato di riferimento.',
+    'services.s8.h': 'Revisione di Documenti',
+    'services.s8.p': 'Revisione e correzione professionale di traduzioni esistenti per garantirne l\u2019accuratezza legale, tecnica e linguistica.',
+
+    // Languages section
+    'languages.eyebrow': 'Lingue',
+    'languages.h2': 'Traduzione autorizzata, da e verso ogni lingua principale',
+    'languages.arabic': 'Arabo',
+    'languages.english': 'Inglese',
+    'languages.italian': 'Italiano',
+
+    // Why Choose Us section
+    'why.eyebrow': 'Perch\u00e9 Sceglierci',
+    'why.h2': 'Piena responsabilit\u00e0 legale su ogni documento che firmiamo',
+    'why.p': 'Che si tratti di un singolo certificato o di un intero fascicolo legale, ogni documento \u00e8 gestito secondo lo stesso standard autorizzato.',
+    'why.c1.h': 'Certificato e Firmato Legalmente',
+    'why.c1.p': 'Ogni traduzione viene verificata rispetto alla terminologia di origine e rilasciata con una dichiarazione firmata di accuratezza.',
+    'why.c2.h': 'Tempi di Consegna Garantiti',
+    'why.c2.p': 'Traduzioni certificate in 12 ore, traduzioni giurate/legali in 48 ore, apostille e legalizzazione urgenti in 2 giorni.',
+    'why.c3.h': 'Riservatezza Firmata',
+    'why.c3.p': 'Ogni progetto \u00e8 coperto da un impegno di riservatezza firmato a tutela dei dati sensibili e dei documenti personali.',
+    'why.c4.h': 'Prezzi Trasparenti',
+    'why.c4.p': 'Prezzi fissi per documento, confermati per iscritto prima dell\u2019inizio dei lavori \u2014 nessun costo nascosto.',
+    'why.c5.h': 'Traduttori Autorizzati',
+    'why.c5.p': 'Linguisti registrati e specializzati nella materia eseguono e firmano ogni traduzione \u2014 mai solo traduzione automatica.',
+    'why.c6.h': 'Assistenza Diretta',
+    'why.c6.p': 'Supporto diretto via WhatsApp, telefono ed email per tutto il progetto, dal preventivo alla consegna.',
+
+    // Contact section
+    'contact.eyebrow': 'Contattaci',
+    'contact.h2': 'Richiedi un preventivo rapido e senza impegno',
+    'contact.name': 'Nome Completo',
+    'contact.namePh': 'Il tuo nome',
+    'contact.phone': 'Telefono',
+    'contact.email': 'Email',
+    'contact.service': 'Servizio Richiesto',
+    'contact.opt1': 'Traduzione Certificata',
+    'contact.opt2': 'Traduzione Legale',
+    'contact.opt3': 'Traduzione Medica',
+    'contact.opt4': 'Traduzione Tecnica',
+    'contact.opt5': 'Traduzione Commerciale',
+    'contact.opt6': 'Traduzione Accademica',
+    'contact.opt7': 'Localizzazione di Siti Web',
+    'contact.opt8': 'Revisione di Documenti',
+    'contact.message': 'Messaggio',
+    'contact.messagePh': 'Raccontaci del tuo documento...',
+    'contact.send': 'Invia Richiesta',
+    'contact.Translation@ahmedguda.it': 'Email',
+    'contact.hoursLabel': 'Orario di Lavoro',
+    'contact.hoursValue': 'Sab\u2013Gio, 10:00 \u2013 20:00',
+
+    // Footer
+    'footer.desc': 'Un ufficio di traduzione autorizzato, registrato per la traduzione certificata e giurata di documenti ufficiali, legali, medici, commerciali, tecnici e accademici',
+    'footer.quickLinks': 'Link Rapidi',
+    'footer.aboutUs': 'Chi Siamo',
+    'footer.services': 'Servizi',
+    'footer.copyright': '\u00a9 2026 Meguid Translation. Tutti i diritti riservati.',
+    'footer.tagline': 'Certificato. Firmato. Legalmente Responsabile.'
   },
   en: {
     // New Navbar Keys (Added 'nav.logo' key here!)
@@ -170,7 +252,89 @@ const translations = {
     'about.stat1': 'Languages supported',
     'about.stat2': 'Documents certified',
     'about.stat3': 'Certified translation delivery',
-    'about.stat4': 'Confidential, signed handling'
+    'about.stat4': 'Confidential, signed handling',
+
+    // Nav (missing key)
+    'nav.services': 'Services',
+
+    // Hero WhatsApp CTA
+    'hero.ctaWhatsapp': 'Contact on WhatsApp',
+
+    // Services section
+    'services.eyebrow': 'Our Services',
+    'services.h2': 'Certified translation for every official document',
+    'services.p': 'We are authorized to translate and certify documents of any nature and complexity \u2014 valid before Egyptian authorities and accepted abroad.',
+    'services.s1.h': 'Certified Translation',
+    'services.s1.p': 'Certified translation of civil documents \u2014 birth, marriage, and death certificates, ID and passport copies \u2014 accepted by government offices, embassies, and consulates.',
+    'services.s2.h': 'Legal Translation',
+    'services.s2.p': 'Sworn and certified translation of contracts, court rulings, powers of attorney, and notarial deeds, valid for legal proceedings in Egypt and abroad.',
+    'services.s3.h': 'Medical Translation',
+    'services.s3.p': 'Certified translation of medical reports, prescriptions, discharge summaries, and clinical documentation, handled under strict confidentiality.',
+    'services.s4.h': 'Technical Translation',
+    'services.s4.p': 'Translation of technical manuals, product specifications, and engineering documentation across industrial and manufacturing sectors.',
+    'services.s5.h': 'Business Translation',
+    'services.s5.p': 'Certified translation of financial statements, commercial registers, company bylaws, and tender documentation for local and international business.',
+    'services.s6.h': 'Academic Translation',
+    'services.s6.p': 'Certified translation and legalization of diplomas, transcripts, and academic records for university admission and visa applications.',
+    'services.s7.h': 'Website Localization',
+    'services.s7.p': 'Full localization of websites and digital platforms, adapted linguistically and culturally for each target market.',
+    'services.s8.h': 'Document Proofreading',
+    'services.s8.p': 'Professional review and correction of existing translations for legal, technical, and linguistic accuracy.',
+
+    // Languages section
+    'languages.eyebrow': 'Languages',
+    'languages.h2': 'Authorized translation, to and from every major language',
+    'languages.arabic': 'Arabic',
+    'languages.english': 'English',
+    'languages.italian': 'Italian',
+
+    // Why Choose Us section
+    'why.eyebrow': 'Why Choose Us',
+    'why.h2': 'Full legal responsibility, on every document we sign',
+    'why.p': 'Whether it is a single certificate or a complete legal case file, every document is handled to the same authorized standard.',
+    'why.c1.h': 'Certified & Legally Signed',
+    'why.c1.p': 'Every translation is checked against source terminology and issued with a signed declaration of accuracy.',
+    'why.c2.h': 'Guaranteed Delivery Times',
+    'why.c2.p': 'Certified translations in 12 hours, sworn/legal translations in 48 hours, urgent apostille and legalization in 2 days.',
+    'why.c3.h': 'Signed Confidentiality',
+    'why.c3.p': 'Every project is covered by a signed confidentiality undertaking protecting sensitive data and personal documents.',
+    'why.c4.h': 'Transparent Pricing',
+    'why.c4.p': 'Fixed, per-document pricing confirmed in writing before any work begins \u2014 no hidden fees.',
+    'why.c5.h': 'Authorized Translators',
+    'why.c5.p': 'Registered, subject-specialist linguists carry out and sign every translation \u2014 never machine translation alone.',
+    'why.c6.h': 'Direct Support',
+    'why.c6.p': 'Direct WhatsApp, phone, and email support throughout your project, from quotation to delivery.',
+
+    // Contact section
+    'contact.eyebrow': 'Get in Touch',
+    'contact.h2': 'Request a quick, no-obligation quote',
+    'contact.name': 'Full Name',
+    'contact.namePh': 'Your name',
+    'contact.phone': 'Phone',
+    'contact.email': 'Email',
+    'contact.service': 'Service Required',
+    'contact.opt1': 'Certified Translation',
+    'contact.opt2': 'Legal Translation',
+    'contact.opt3': 'Medical Translation',
+    'contact.opt4': 'Technical Translation',
+    'contact.opt5': 'Business Translation',
+    'contact.opt6': 'Academic Translation',
+    'contact.opt7': 'Website Localization',
+    'contact.opt8': 'Document Proofreading',
+    'contact.message': 'Message',
+    'contact.messagePh': 'Tell us about your document...',
+    'contact.send': 'Send Request',
+    'contact.Translation@ahmedguda.it': 'Email',
+    'contact.hoursLabel': 'Working Hours',
+    'contact.hoursValue': 'Sat\u2013Thu, 10:00 AM \u2013 8:00 PM',
+
+    // Footer
+    'footer.desc': 'An authorized translation office, registered for certified and sworn translation of official, legal, medical, business, technical, and academic documents',
+    'footer.quickLinks': 'Quick Links',
+    'footer.aboutUs': 'About Us',
+    'footer.services': 'Services',
+    'footer.copyright': '\u00a9 2026 Meguid Translation. All rights reserved.',
+    'footer.tagline': 'Certified. Signed. Legally Responsible.'
   }
 };
 
