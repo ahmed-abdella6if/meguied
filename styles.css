@@ -184,14 +184,27 @@
   .lang-btn.active{ background:var(--gold-500); color:var(--navy-900); }
 
   .lang-toggle-mobile{
-    background:rgba(255,255,255,0.08);
-    border-color:rgba(255,255,255,0.22);
+    display:flex; align-items:center; gap:2px;
+    border-radius:999px;
+    padding:3px;
     align-self:flex-start;
     margin-bottom:6px;
   }
-  .lang-toggle-mobile .lang-btn{ color:rgba(255,255,255,0.7); }
-  .lang-toggle-mobile .lang-btn:hover:not(.active){ color:var(--white); }
-  .lang-toggle-mobile .lang-btn.active{ background:var(--gold-500); color:var(--navy-900); }
+  /* Dark background context: inside .mobile-drawer (navy background) */
+  .mobile-drawer .lang-toggle-mobile{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.22);
+  }
+  .mobile-drawer .lang-toggle-mobile .lang-btn{ color:rgba(255,255,255,0.7); }
+  .mobile-drawer .lang-toggle-mobile .lang-btn:hover:not(.active){ color:var(--white); }
+
+  /* Light background context: inside .bottom-sheet (cream background) */
+  .bottom-sheet .lang-toggle-mobile{
+    background:var(--white);
+    border:1px solid var(--line);
+  }
+  .bottom-sheet .lang-toggle-mobile .lang-btn{ color:var(--muted); }
+  .bottom-sheet .lang-toggle-mobile .lang-btn:hover:not(.active){ color:var(--navy-900); }
 
   .mobile-lang-section{
     margin-top:auto;
