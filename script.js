@@ -97,6 +97,7 @@ const translations = {
     'legal.wa_text': 'TRADUZIONI URGENTI disponibili su Whatsapp',
     'legal.quote_text': 'CONTATTACI PER UN PREVENTIVO RAPIDO GRATUITO',
     'about.h2': 'Un ufficio autorizzato, pienamente responsabile di ci\u00f2 che firma',
+    'about.strong1': 'Molteplici',
     'about.stat1': 'Lingue supportate',
     'about.stat2': 'Documenti certificati',
     'about.stat3': 'Consegna traduzioni certificate',
