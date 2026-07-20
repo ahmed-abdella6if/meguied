@@ -383,13 +383,13 @@
       <h2 style="font-size:clamp(26px,3vw,36px); margin-bottom:22px;" data-i18n="contact.h2">Request a quick, no-obligation quote</h2>
       <form class="contact-form" id="contactForm">
         <div class="row-2">
-          <div class="field"><label for="name" data-i18n="contact.name">Full Name</label><input id="name" type="text" data-i18n-placeholder="contact.namePh" placeholder="Your name" required></div>
-          <div class="field"><label for="phone" data-i18n="contact.phone">Phone</label><input id="phone" type="tel" placeholder="" required></div>
+            <div class="field"><label for="name" data-i18n="contact.name">Full Name</label><input id="name" name="name" type="text" data-i18n-placeholder="contact.namePh" placeholder="Your name" required></div>
+            <div class="field"><label for="phone" data-i18n="contact.phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="" required></div>
         </div>
-        <div class="field"><label for="email" data-i18n="contact.email">Email</label><input id="email" type="email" placeholder="you@email.com" required></div>
+        <div class="field"><label for="email" data-i18n="contact.email">Email</label><input id="email" name="email" type="email" placeholder="you@email.com" required></div>
         <div class="field">
           <label for="service" data-i18n="contact.service">Service Required</label>
-          <select id="service">
+          <select id="service" name="service">
             <option data-i18n="contact.opt1">Certified Translation</option>
             <option data-i18n="contact.opt2">Legal Translation</option>
             <option data-i18n="contact.opt3">Medical Translation</option>
@@ -400,7 +400,7 @@
             <option data-i18n="contact.opt8">Document Proofreading</option>
           </select>
         </div>
-        <div class="field"><label for="message" data-i18n="contact.message">Message</label><textarea id="message" rows="4" data-i18n-placeholder="contact.messagePh" placeholder="Tell us about your document..."></textarea></div>
+        <div class="field"><label for="message" data-i18n="contact.message">Message</label><textarea id="message" name="message" rows="4" data-i18n-placeholder="contact.messagePh" placeholder="Tell us about your document..."></textarea></div>
         <button type="submit" class="btn btn-primary" style="margin-top:6px;" data-i18n="contact.send">Send Request</button>
       </form>
     </div>

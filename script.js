@@ -24,13 +24,61 @@ document.querySelectorAll('.faq-item').forEach(item => {
 
 // ---------- Contact form ----------
 const contactForm = document.getElementById('contactForm');
+
+// URL of the Google Apps Script Web App that appends rows to the Sheet.
+// Must be deployed with "Execute as: Me" and "Who has access: Anyone".
+const SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbz6EGb8QA_OoF5x0JIwFm31-07botiUEhLF4a2kN-VEhIYVNOxQi3xyXLz7cwkQw4oo/exec';
+
 const formMessages = {
   en: 'Thank you \u2014 your request has been received. We will contact you shortly.',
   it: 'Grazie \u2014 la tua richiesta \u00e8 stata ricevuta. Ti contatteremo a breve.'
 };
+
+const formErrorMessages = {
+  en: 'Something went wrong sending your request. Please try again or contact us on WhatsApp.',
+  it: 'Si \u00e8 verificato un errore nell\u2019invio della richiesta. Riprova o contattaci su WhatsApp.'
+};
+
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  alert(formMessages[currentLang]);
+
+  const submitBtn = contactForm.querySelector('[type="submit"]');
+  const originalBtnText = submitBtn ? submitBtn.innerHTML : null;
+  if (submitBtn) {
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = currentLang === 'it' ? 'Invio in corso...' : 'Sending...';
+  }
+
+  // Collect every field on the form that has a name="" attribute.
+  const formData = new FormData(contactForm);
+  formData.append('lang', currentLang);
+  formData.append('submittedAt', new Date().toISOString());
+  formData.append('page', window.location.href);
+
+  const params = new URLSearchParams();
+  formData.forEach((value, key) => params.append(key, value));
+
+  // Apps Script web apps don't return CORS headers for simple fetch reads,
+  // so we send as a standard form POST and treat "no network error" as success.
+  fetch(SHEET_ENDPOINT, {
+    method: 'POST',
+    mode: 'no-cors',
+    body: params
+  })
+    .then(() => {
+      alert(formMessages[currentLang]);
+      contactForm.reset();
+    })
+    .catch((err) => {
+      console.error('Contact form submission failed:', err);
+      alert(formErrorMessages[currentLang]);
+    })
+    .finally(() => {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+      }
+    });
 });
 
 // ---------- Translations ----------
